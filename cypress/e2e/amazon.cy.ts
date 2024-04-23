@@ -1,7 +1,5 @@
-// amazon_steps.ts
-
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
-import AmazonPage from '../../page_objects/AmazonPage';
+import AmazonPage from './AmazonPage.cy';
 
 NodeEvents.setupNodeEvents();
 
