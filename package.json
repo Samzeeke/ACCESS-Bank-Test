@@ -1,0 +1,25 @@
+{
+  "name": "access-bank-test",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber Assesment Test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Samuel Ezekiel",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^3.2.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
